@@ -31,8 +31,28 @@ a:hover{
 }
 
 /*coupon*/
-
-
+.coupon{
+    position:fixed;
+    height:350px;
+    width:50%;
+    left:25%;
+    top:25%;
+    background-color: #673de6;
+    border-radius: 8px;
+    box-shadow: black 0px 0px 100px 0px;
+    color:white;
+    padding:5%;
+    padding-top:4.5%;
+    
+    z-index:2;
+}
+.close{
+    position:absolute;
+    left: 726px;
+    top: 0px;
+    color:white;
+    font-size: 30px;
+}
 /*Navbar*/
 .navbar {
     color: #1d1e20;
