@@ -10,10 +10,12 @@ body{
     text-decoration: none !important;
     list-style-type: none !important;
     overflow-x: hidden;
+    background-color: white;
+    color:black;
 }
 .dark{
-    background-color: black;
-    color:white;
+    background-color: black !important;
+    color:white !important;
 }
 a:visited{
     color:#1d1e20;
